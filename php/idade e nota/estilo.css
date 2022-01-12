@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+div#cmd{
+	width: 700px;
+	height: 600px;
+	margin: -15px auto auto auto;
+	padding: 1px;
+	background-color:  #00001a;
+}
+div#titulo{
+	width: 900px;
+	margin: -20px auto 0px auto;
+	padding: 10px;
+	background-color: #003333;
+}
+h1{
+	font-family: arial, sans serif;
+	color: #66ffff;
+}
+h2{
+	font-family: arial, sans serif;
+	color: #00001a;
+}
+h3{
+	font-family: "Times New Roman", Times, serif;
+	color: green;
+}
+div#code{
+	width: 900px;
+	margin: -20px auto 0px auto;
+	padding: 10px;
+	background-color: #99ddff;
+}
+body{
+	background-color: #000066;
+	color: rgba(0,0,0,1);
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Conversos de temperatura Celsius para Fahrenheafat</title>
+  </head>
+  <body>
+    <script>
+      // Esse codigo precisa ser refatorado
+      alert('Conversor de temperatura')
+
+      let temperatura = prompt('Digite a temperatura em Celsius')
+      temperatura = parseFloat(temperatura.replace(',', '.'))
+
+      converteCelsius = celsius => {
+        return ((celsius / 5 * 9) + 32)
+      }
+
+      alert(converteCelsius(temperatura))
+      // issue adicionar funcao para calcular Fahrenheit para celsius
+    </script>
+  </body>
+</html>

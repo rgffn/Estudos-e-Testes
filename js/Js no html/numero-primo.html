@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>numero primo</title>
+		<meta charset="UTF-8">
+
+	</head>
+	<body>
+	<script>
+		const numero = parseInt(prompt('Digite um numero para saber c e primo'))
+
+		function descobreNumeroPrimo(x) {
+			var divisor = 0
+			for(let i = 1; i <= x; i++) {
+				if (x % i === 0) {
+					 divisor ++
+				}
+			}
+
+			if (divisor === 2) {
+				return alert(`O numero ${x} e primo`)
+			} else {
+				return alert(`O numero ${x} nao e primo`)
+			}
+		}
+
+		descobreNumeroPrimo(numero)
+	</script>
+	</body>
+</html>

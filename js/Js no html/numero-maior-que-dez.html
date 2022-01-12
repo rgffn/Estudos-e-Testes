@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Numero maior que dez</title>
+  </head>
+  <body>
+    <script>
+      alert('Algoritmo que descobre se o numero é maior que 10')
+
+      const numero = parseInt(prompt('Digite um numero qualquer'))
+
+      descobreNumero = numero => {
+        if (numero > 10) {
+          return alert(`O numero ${numero} é maior que 10`)
+        }
+        if (numero === 10) {
+          return alert('O numero que você digitou é igual a 10')
+        }
+          return alert(`O numero ${numero} é menor que 10`)
+      }
+
+      descobreNumero(numero)
+    </script>
+  </body>
+</html>

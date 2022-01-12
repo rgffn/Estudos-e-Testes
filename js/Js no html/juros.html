@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Juros</title>
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script>
+    const taxaDeEmprestimo = 0.04
+
+    const capital = parseInt(prompt('Digite o valor que quer emprestado'))
+
+    let juros
+
+    const periodo = parseInt(prompt('Deseja pagar em quantos meses?'))
+
+    somaDivida = (taxaDeEmprestimo, capital, juros, periodo) => {
+      return juros = capital * taxaDeEmprestimo * periodo
+    }
+
+    alert(somaDivida(taxaDeEmprestimo, capital, juros, periodo))
+  </script>
+</body>
+</html>

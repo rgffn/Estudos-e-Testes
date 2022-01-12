@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Equacao do segundo grau</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+  <script>
+
+    const a = 1
+    const b = 0
+    const c = -100
+
+    const delta = function calculaDelta(a, b, c) {
+      return (( b * 2 ) - 4 * a * c)
+    }
+
+    const bhaskaraX1 = function calcula(a, b, c) {
+      return ((-b + Math.sqrt(delta(a, b, c)) / 2 * a))
+    }
+
+    const bhaskaraX2 = function calcula(a, b, c) {
+      return ((-b - Math.sqrt(delta(a, b, c)) / 2 * a))
+    }
+
+    console.log(bhaskaraX1(a, b, c))
+
+  </script>
+  </body>
+</html>

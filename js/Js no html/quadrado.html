@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Area do Quadrado</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>Calculando a área do Quadrado</h1>
+  <form>
+    Digite o valor da altura do quadrado: <input type="number" id="height" name="height" value=""/>
+    <br />
+    Digite o valor do lado do quadrado: <input type="number" id="side" name="side" value=""/>
+    <br />
+    <button onclick="calculate()" type="button">
+      Calcular
+    </button>
+  </form>
+
+  <p id="result"></p>
+</body>
+
+<script>
+function calculate() {
+
+    let height = document.getElementById("height").value
+    let side = document.getElementById("side").value
+
+    let result = height * side
+
+    document.getElementById("result").innerHTML = `O valor do Quadrado é ${result} m²`
+
+    height = document.getElementById("height").value = ''
+    side = document.getElementById("side").value = ''
+}
+</script>
+
+</html>

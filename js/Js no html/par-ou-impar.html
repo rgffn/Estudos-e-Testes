@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Par ou impar</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <script>
+    alert('Descobrindo se o numero é par ou impar')
+
+    const numero = parseInt(prompt('Digite qualquer numero'))
+
+    function parOuImpar (x) {
+      if (x % 2 === 0) {
+        return alert(`O numero ${x} é Par`)
+      } else {
+        return alert(`O numero ${x} é Impar`)
+      }
+    }
+
+    parOuImpar(numero)
+  </script>
+</body>
+</html>
